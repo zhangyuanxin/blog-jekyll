@@ -1,9 +1,9 @@
 
 # Site settings
 email: zhangyuanxin@foxmail.com
-baseurl: "blog"
+baseurl: ""
 paginate: 5
-paginate_path: "/post/page-:num"
+paginate_path: "/blog/page-:num"
 google_analytics:
 baidu_analytics: true
 repo: http://github.com/zhangyuanxin/blog-jekyll
