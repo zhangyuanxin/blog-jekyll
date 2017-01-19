@@ -4,6 +4,9 @@ title: Nginx Setup
 comments: true
 author:  张远馨
 categories: [Nginx,Setup]
+image: http://uiplus.org/assets/images/nginx-logo.png
+image-sm: http://uiplus.org/assets/images/nginx-logo.png
+
 ---
 
 ![nginx](/assets/images/nginx-logo.png)

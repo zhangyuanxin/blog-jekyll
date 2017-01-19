@@ -40,14 +40,14 @@ categories: [Linux,vim]
 
 1.<a name="4" style="color:black;text-decoration:none"></a>文件的打开、保存、关闭操作(vi命令模式下使用)
 
-命令         |释义说明
-------------|------------
-`vi [file]` |打开file文件
-`:w`        |保存文件
-`:w [file]` |保存至file文件
-`:q`        |退出编辑器(未修改)
-`:q!`       |退出编辑器（不保存修改）
-`:wq`       |退出编辑器（保存修改）
+| 命令 |释义说明|
+| --- |  ---  |
+|`vi [file]` |打开file文件|
+|`:w`        |保存文件|
+|`:w [file]` |保存至file文件|
+|`:q`        |退出编辑器(未修改)|
+|`:q!`       |退出编辑器（不保存修改）|
+|`:wq`       |退出编辑器（保存修改）|
 
     
 2.<a name="5" style="color:black;text-decoration:none"></a>插入模式：插入文本或行(vi命令模式下使用，执行下面命令后将进入插入模式，按ESC键可退出插入模式)

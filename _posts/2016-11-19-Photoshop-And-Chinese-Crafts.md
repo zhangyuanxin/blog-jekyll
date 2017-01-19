@@ -4,6 +4,9 @@ title: How to make a chinese crafts with photoshop
 comments: true
 author:  张远馨
 categories: [Photoshop, Chinese Crafts, Filter, Fonts]
+image: http://uiplus.org/assets/images/2016-11-19/jobs-crafts.jpg
+image-sm: http://uiplus.org/assets/images/2016-11-19/jobs-crafts.jpg
+
 ---
 
 ![works](/assets/images/2016-11-19/jobs-crafts.jpg)
