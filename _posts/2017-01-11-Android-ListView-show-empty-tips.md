@@ -4,6 +4,8 @@ title: Android Empty ListView
 comments: true
 author:  张远馨
 categories: [Android, ListView]
+image: http://uiplus.org/assets/images/2016-11-19/jobs-crafts.jpg
+image-sm: http://uiplus.org/assets/images/2016-11-19/jobs-crafts.jpg
 
 ---
 
