@@ -6,6 +6,9 @@ description: "take pictures/ISO & APS-C"
 keywords: "pictures ISO APS-C"
 author:  张远馨
 categories: [pictures, ISO, APS-C]
+image: https://unsplash.it/2000/1200?image=16
+image-sm: https://unsplash.it/500/300?image=16
+
 ---
 
 ### 影像尺寸

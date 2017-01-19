@@ -4,6 +4,9 @@ title: Android Problems（Updating）
 comments: true
 author:  张远馨
 categories: [Android,Problems]
+image: https://unsplash.it/2000/1200?image=1074
+image-sm: https://unsplash.it/500/300?image=1074
+
 ---
 
 Problem 1：

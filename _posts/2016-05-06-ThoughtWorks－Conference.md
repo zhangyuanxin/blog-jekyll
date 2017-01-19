@@ -5,6 +5,9 @@ comments: true
 author: 远馨
 categories: [生活]
 tags: [旅游, 学习, 北京]
+image: https://unsplash.it/2000/1200?image=718
+image-sm: https://unsplash.it/500/300?image=718
+
 ---
 
 **公司接到北京ThoughtWorks组织的峰会邀请，公司组团去北京听演讲学习，内容待补充...**

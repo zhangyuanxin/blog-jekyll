@@ -4,6 +4,9 @@ title: Vi Editor Commands
 comments: true
 author:  张远馨
 categories: [Linux,vim]
+image: https://unsplash.it/2000/1200?image=685
+image-sm: https://unsplash.it/500/300?image=685
+
 ---
 
 > “由于最近工作经常要用到linux系统，但是命令都不是太熟悉，现在开始慢慢总结，不断练习，不断学习吧！” 
