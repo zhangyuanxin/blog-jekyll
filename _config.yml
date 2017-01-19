@@ -21,11 +21,11 @@ profile_img: http://uiplus.org/assets/images/avatar.jpg
 profile: 山东人，生于1991年，毕业于山东中医药大学，现居山东济南，就职于济南雷恩信息科技有限公司研发部，始于中软国际科技有限公司。业余微信公众号玩家、业余简书玩家，爱好电影、音乐，喜欢散步。
 social:
   github: http://github.com/zhangyuanxin
-  codepen: http://codepen.io/thomasvaeth/
-  linkedin: http://linkedin.com/in/zhangyuanxin
-  twitter: https://twitter.com/thomasvaeth
+  codepen: http://codepen.io/zhangyuanxin
+  linkedin: http://www.linkedin.com/in/%E8%BF%9C%E9%A6%A8-%E5%BC%A0-449081101
+  twitter: https://twitter.com/zhangyuanxin
   facebook: https://www.facebook.com/zhangyuanxin
-  instagram: https://www.instagram.com/zhangyuanxin/
+  instagram: https://www.instagram.com/zhangyuanxin
 
 # Build settings
 include: ["_categories"]
