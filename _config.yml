@@ -10,10 +10,10 @@ repo: http://github.com/zhangyuanxin/blog-jekyll
 
 # SEO settings
 title: 斯是陋室
-description: 
+description: 热爱生活 积极向上 知耻而后勇
 url: http://uiplus.org
-twitter_username: 
-default_img: 
+twitter_username: zhangyuanxin
+default_img: http://uiplus.org/assets/images/avatar.jpg
 
 # Profile settings
 name: 张远馨
