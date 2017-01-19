@@ -1,5 +1,5 @@
 {% if page.comments %}
-<aside id="comments">
+<section id="comments" class="section-padding">
     <!-- duoshuo start -->
     <div class="ds-thread" data-thread-key="{{ page.title }}" data-title="{{ page.title }}"
          data-url="{{ site.url }}{{ page.id }}"></div>
@@ -18,5 +18,5 @@
         })();
     </script>
     <!-- duoshuo js end -->
-</aside>
+</section>
 {% endif %}
