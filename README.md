@@ -1,2 +1,1 @@
-# blog-jekyll
-A blog website
+# A Blog Theme for Jekyll
