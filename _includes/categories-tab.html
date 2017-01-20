@@ -15,8 +15,8 @@
           {% endfor %}
           <div class="card__container">
             <h2 class="card__header">{{ cat_name }}</h2>
-            <p class="card__count">{{ site.categories[cat_name] | size }} Posts</p>
-            <span class="card__more">View All</span>
+            <p class="card__count">{{ site.categories[cat_name] | size }} {{ site.page.post }}</p>
+            <span class="card__more">{{ site.page.viewall }}</span>
           </div>
         </a>
       </li>

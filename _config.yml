@@ -27,6 +27,17 @@ social:
   facebook: https://www.facebook.com/zhangyuanxin
   instagram: https://www.instagram.com/zhangyuanxin
 
+page:
+  previous: 前一頁
+  next: 后一頁
+  back: 文章
+  post: 文章
+  category: 分類
+  readmore: 閲讀原文
+  readnext: 繼續閲讀
+  viewall: 全部文章
+  archive: 片段
+
 # Build settings
 include: ["_categories"]
 exclude: ["_screenshots", "Gemfile", "Gemfile.lock"]
