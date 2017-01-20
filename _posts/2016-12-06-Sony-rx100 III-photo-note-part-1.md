@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Photography Tutorial"
+title: "Photography"
 comments: true
 description: "take pictures/ISO & APS-C"
 keywords: "pictures ISO APS-C"

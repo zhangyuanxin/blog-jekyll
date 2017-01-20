@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Photoshop Tutorial 1st
+title: Photoshop
 comments: true
 author:  张远馨
 categories: 
