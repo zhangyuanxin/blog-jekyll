@@ -43,6 +43,7 @@ include: ["_categories"]
 exclude: ["_screenshots", "Gemfile", "Gemfile.lock"]
 markdown: kramdown
 highlighter : rouge
+pygments: true
 source: ./
 destination: ./_site
 permalink: /:year/:month/:day/:title/
