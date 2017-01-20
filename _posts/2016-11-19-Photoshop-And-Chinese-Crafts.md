@@ -1,6 +1,6 @@
 ---
 layout: post
-title: How to make a chinese crafts with photoshop
+title: Photoshop Tutorial 1st
 comments: true
 author:  张远馨
 categories: 

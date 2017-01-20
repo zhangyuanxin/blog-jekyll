@@ -1,6 +1,6 @@
 ---
 layout: post
-title: ThoughtWorks Conference
+title: ThoughtWorks
 comments: true
 author: 远馨
 categories: [life]

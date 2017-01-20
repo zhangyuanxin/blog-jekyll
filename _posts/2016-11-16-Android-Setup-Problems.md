@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Android Problems（Updating）
+title: Android Problems
 comments: true
 author:  张远馨
 categories: 

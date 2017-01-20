@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "The first lesson to learn to take pictures : ISO & APS-C "
+title: "Photography Tutorial"
 comments: true
 description: "take pictures/ISO & APS-C"
 keywords: "pictures ISO APS-C"

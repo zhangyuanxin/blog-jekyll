@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Android Empty ListView
+title: Android ListView
 comments: true
 author:  张远馨
 categories: 

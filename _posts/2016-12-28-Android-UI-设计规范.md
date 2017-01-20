@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Android UI 设计规范
+title: Android UI
 comments: true
 author: 张远馨
 categories:

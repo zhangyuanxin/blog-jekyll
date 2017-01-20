@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Vi Editor Commands
+title: Vi Commands
 comments: true
 author:  张远馨
 categories: 
