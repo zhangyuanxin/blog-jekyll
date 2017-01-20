@@ -3,8 +3,11 @@ layout: post
 title: ThoughtWorks Conference
 comments: true
 author: 远馨
-categories: [生活]
-tags: [旅游, 学习, 北京]
+categories: [life]
+tags: 
+ - 旅游
+ - 学习
+ - 北京
 image: https://unsplash.it/2000/1200?image=718
 image-sm: https://unsplash.it/500/300?image=718
 
