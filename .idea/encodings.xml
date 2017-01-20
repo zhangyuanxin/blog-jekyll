@@ -1,8 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/_categories/android.html" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/_categories/life.html" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/_categories/plan.html" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/_categories/work.html" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/_categories/write.html" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/_config.yml" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/_includes/category.html" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/index.html" charset="UTF-8" />
+    <file url="PROJECT" charset="UTF-8" />
   </component>
 </project>
