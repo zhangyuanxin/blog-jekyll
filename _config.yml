@@ -42,6 +42,9 @@ page:
 include: ["_categories"]
 exclude: ["_screenshots", "Gemfile", "Gemfile.lock"]
 markdown: kramdown
+highlighter : rouge
+source: ./
+destination: ./_site
 permalink: /:year/:month/:day/:title/
 
 # Sass
