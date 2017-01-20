@@ -3,7 +3,10 @@ layout: post
 title: Nginx Setup
 comments: true
 author:  张远馨
-categories: [Nginx,Setup]
+categories: 
+  - code
+tags:
+  - nginx
 image: https://unsplash.it/2000/1200?image=1062
 image-sm: https://unsplash.it/500/300?image=1062
 

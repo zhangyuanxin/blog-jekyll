@@ -2,7 +2,7 @@
 layout: post
 title: Personal Plans
 author:  张远馨
-categories: [personal,plans]
+categories: [plan]
 image: https://unsplash.it/2000/1200?image=823
 image-sm: https://unsplash.it/500/300?image=823
 

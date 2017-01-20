@@ -3,7 +3,10 @@ layout: post
 title: Android Empty ListView
 comments: true
 author:  张远馨
-categories: [Android, ListView]
+categories: 
+  - code
+tags:
+  - android
 image: https://unsplash.it/2000/1200?image=163
 image-sm: https://unsplash.it/500/300?image=163
 

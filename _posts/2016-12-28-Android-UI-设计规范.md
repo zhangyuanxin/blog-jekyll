@@ -3,7 +3,10 @@ layout: post
 title: Android UI 设计规范
 comments: true
 author: 张远馨
-categories: [Android,UI, 设计规范]
+categories:
+ - code
+tags:
+ - android
 image: https://unsplash.it/2000/1200?image=161
 image-sm: https://unsplash.it/500/300?image=161
 

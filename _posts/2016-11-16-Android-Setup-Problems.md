@@ -3,7 +3,10 @@ layout: post
 title: Android Problems（Updating）
 comments: true
 author:  张远馨
-categories: [Android,Problems]
+categories: 
+  - code
+tags:
+  - android
 image: https://unsplash.it/2000/1200?image=1074
 image-sm: https://unsplash.it/500/300?image=1074
 

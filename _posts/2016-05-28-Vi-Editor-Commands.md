@@ -3,7 +3,11 @@ layout: post
 title: Vi Editor Commands
 comments: true
 author:  张远馨
-categories: [Linux,vim]
+categories: 
+  - code
+tags:
+  - linux
+  - vim
 image: https://unsplash.it/2000/1200?image=685
 image-sm: https://unsplash.it/500/300?image=685
 
