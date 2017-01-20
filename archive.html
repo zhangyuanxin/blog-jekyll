@@ -7,10 +7,10 @@ permalink: /archive/
 <section class="archives" itemscope itemtype="http://schema.org/Blog">
   <a class="nav nav--black" href="{{ site.baseurl }}/">
     <i class="fa fa-lg fa-arrow-left"></i>
-    <span>Back to Posts</span>
+    <span>{{ site.page.back }}</span>
   </a>
   <header class="archives__header">
-    <span>Archive</span>
+    <span>{{ site.page.archive }}</span>
   </header>
   <div class="section-padding archives__container">
     {% for post in site.posts %}
@@ -31,7 +31,7 @@ permalink: /archive/
                 in {{ post.categories | join: ', ' }}
               {% endif %}
             </p>
-            <span class="card__more">Read Post</span>
+            <span class="card__more">{{ site.page.readmore }}</span>
           </div>
         </a>
       </article>
