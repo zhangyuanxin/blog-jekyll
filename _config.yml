@@ -10,15 +10,15 @@ repo: http://github.com/zhangyuanxin/blog-jekyll
 
 # SEO settings
 title: 斯是陋室
-description: 热爱生活 积极向上 知耻而后勇
+description: 學會勇敢 積極陽光 敏而上學
 url: http://uiplus.org
 twitter_username: zhangyuanxin
 default_img: http://uiplus.org/assets/images/avatar.jpg
 
 # Profile settings
-name: 张远馨
+name: 張遠馨
 profile_img: http://uiplus.org/assets/images/avatar.jpg
-profile: 山东人，生于1991年，毕业于山东中医药大学，现居山东济南，就职于济南雷恩信息科技有限公司研发部，始于中软国际科技有限公司。业余微信公众号玩家、业余简书玩家，爱好电影、音乐，喜欢散步。
+profile: 張遠馨 生於壹玖玖壹年冬，山東人，肄業于山東中醫藥大學，今居濟南歷下區，現就職于濟南雷恩信息科技有限公司技術研發部門，曾就職于中軟國際科技服務有限公司。業餘時間喜歡看看電影、聽歌賞樂、翻閲科技新聞，現經營一個靜思詩文的微信公衆號，沒事在簡書上寫寫文章。
 social:
   github: http://github.com/zhangyuanxin
   codepen: http://codepen.io/zhangyuanxin
