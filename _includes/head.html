@@ -30,14 +30,17 @@
     <link rel="shortcut icon" href="{{'/assets/images/ico.png' | prepend: site.baseurl }}" type="image/x-icon">
 
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inconsolata|Lora|Space+Mono:700">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="//cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.min.css">
 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/4.2.0/normalize.min.css">
+    <link rel="stylesheet" href="//cdn.bootcss.com/normalize/4.2.0/normalize.min.css">
+
     <link rel="stylesheet" href="{{ '/assets/css/main.css' | prepend: site.baseurl }}">
 
     <link rel="alternate" type="application/rss+xml" title="{{ site.title }}"
           href="{{ '/feed.xml' | prepend: site.baseurl | prepend: site.url }}">
     <link rel="canonical" href="{{ page.url | replace: 'index.html', '' | prepend: site.baseurl | prepend: site.url }}">
+
+    <script type="text/javascript" src="//cdn.webfont.youziku.com/wwwroot/js/wf/youziku.api.min.js"></script>
 
     {% if site.google_analytics %}
     <script>
@@ -67,4 +70,10 @@
         })();
     </script>
     {% endif %}
+
+    <script type="text/javascript">
+        $youziku.load("body", "62ecf9323f87435babfd1e454b227a5c", "hdjxidengxian");
+        /*$youziku.load("#id1,.class1,h1", "62ecf9323f87435babfd1e454b227a5c", "hdjxidengxian");*/
+        $youziku.draw();
+    </script>
 </head>
