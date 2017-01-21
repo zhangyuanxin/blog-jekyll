@@ -35,13 +35,16 @@
     <link rel="stylesheet" href="//cdn.bootcss.com/normalize/4.2.0/normalize.min.css">
 
     <link rel="stylesheet" href="{{ '/assets/css/main.css' | prepend: site.baseurl }}">
+    <link rel="stylesheet" href="{{ '/assets/css/typo.css' | prepend: site.baseurl }}">
 
     <link rel="alternate" type="application/rss+xml" title="{{ site.title }}"
           href="{{ '/feed.xml' | prepend: site.baseurl | prepend: site.url }}">
     <link rel="canonical" href="{{ page.url | replace: 'index.html', '' | prepend: site.baseurl | prepend: site.url }}">
 
+    <!-- youziku font start -->
     <script type="text/javascript" src="//cdn.webfont.youziku.com/wwwroot/js/wf/youziku.api.min.js"></script>
-
+    <link href='//cdn.webfont.youziku.com/webfonts/nomal/98002/31011/58838573f629d8148caf3025.css' rel='stylesheet' type='text/css' />
+    <!-- youziku font end -->
     {% if site.google_analytics %}
     <script>
         (function (i, s, o, g, r, a, m) {
@@ -72,7 +75,10 @@
     {% endif %}
 
     <script type="text/javascript">
-        $youziku.load("body", "62ecf9323f87435babfd1e454b227a5c", "hdjxidengxian");
+//        $youziku.load("body", "c682ff73bd7e4053a4bcb5918d69d980", "TSSunOld");
+
+        /*$youziku.load(".xiaozhuan", "01549b91d18144e3b8a519d50771af4c", "NTJianZhuan");*/
+        /*$youziku.load(".gangbixingshu", "296ee57877f145c98666c1bc9a0a2552", "AnJingCheng-Xing");*/
         /*$youziku.load("#id1,.class1,h1", "62ecf9323f87435babfd1e454b227a5c", "hdjxidengxian");*/
         $youziku.draw();
     </script>
