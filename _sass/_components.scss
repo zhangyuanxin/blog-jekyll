@@ -370,8 +370,6 @@
   max-width: $mq-md;
   margin: 0 auto;
 
-  font-family: $font-post;
-
   @media (min-width: $mq-md) {
     width: 55%;
   }
@@ -383,10 +381,6 @@
 
   p:first-child {
     font-size: 1.25em;
-  }
-
-  a {
-    border-bottom: 1px solid $color-alpha;
   }
 
   img {
