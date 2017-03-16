@@ -13,7 +13,7 @@ image-sm: https://unsplash.it/500/300?image=685
 
 ---
 
-> “由于最近工作经常要用到linux系统，但是命令都不是太熟悉，现在开始慢慢总结，不断练习，不断学习吧！” 
+> 由于最近工作经常要用到linux系统，但是命令都不是太熟悉，现在开始慢慢总结，不断练习，不断学习吧！
 
     
 #### <a name="1" style="color:green;cursor: pointer">#</a> vi的使用教程（比较适合新手学习vi）：
