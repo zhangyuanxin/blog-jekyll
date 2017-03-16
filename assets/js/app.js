@@ -103,6 +103,15 @@ document.addEventListener('DOMContentLoaded', function () {
     Tabs.init();
     Preview.init();
     wow.init();
+});
+
+$(function(){
+
+    $('table').each(function (i, block) {
+        var html = $(this).html();
+        console.log();
+    });
+
     $('pre code').each(function (i, block) {
         hljs.highlightBlock(block);
     });
