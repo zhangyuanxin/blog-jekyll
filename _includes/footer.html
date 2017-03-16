@@ -1,15 +1,5 @@
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
 <script type="text/javascript" src="{{ '/assets/js/app.js' | prepend: site.baseurl }}"></script>
 <script>
-    $(function () {
-        $('table').each(function (i, block) {
-            var html = $(this).html();
-            console.log(html);
-        });
-
-        $('pre code').each(function (i, block) {
-            hljs.highlightBlock(block);
-        });
-
-    });
+    hljs.initHighlightingOnLoad();
 </script>
