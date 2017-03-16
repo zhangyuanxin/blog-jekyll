@@ -29,7 +29,7 @@
           content="{% if page.image %}{{ page.image }}{% else %}{{ site.default_img }}{% endif %}">
     <link rel="shortcut icon" href="{{'/assets/images/ico.png' | prepend: site.baseurl }}" type="image/x-icon">
 
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inconsolata|Lora|Space+Mono:700">
+    <!--<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inconsolata|Lora|Space+Mono:700">-->
     <link rel="stylesheet" href="//cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.min.css">
 
     <link rel="stylesheet" href="//cdn.bootcss.com/normalize/4.2.0/normalize.min.css">
@@ -37,8 +37,8 @@
     <link rel="stylesheet" href="{{ '/assets/css/main.css' | prepend: site.baseurl }}">
     <link rel="stylesheet" href="{{ '/assets/css/extends.css' | prepend: site.baseurl }}">
     <link rel="stylesheet" href="{{ '/assets/css/typo.css' | prepend: site.baseurl }}">
-    <!--<link rel="stylesheet" href="{{ '/assets/css/typo.css' | prepend: site.baseurl }}">-->
-
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.10.0/styles/default.min.css">
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.10.0/highlight.min.js"></script>
     <link rel="alternate" type="application/rss+xml" title="{{ site.title }}"
           href="{{ '/feed.xml' | prepend: site.baseurl | prepend: site.url }}">
     <link rel="canonical" href="{{ page.url | replace: 'index.html', '' | prepend: site.baseurl | prepend: site.url }}">
@@ -92,5 +92,11 @@
     <script type="text/javascript">
         $youziku.load("body", "73b2bf87b0a7401fabd25b376d7cea23", "Source-Han-Light");
         $youziku.draw();
+
+        $(function(){
+            $('pre code').each(function(i, block) {
+                hljs.highlightBlock(block);
+            });
+        });
     </script>
 </head>
