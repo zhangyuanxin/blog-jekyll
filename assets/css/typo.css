@@ -173,11 +173,9 @@ mark {
 pre, code, pre tt {
   font-family: Courier, 'Courier New', monospace;
   overflow-x: auto;
-  color: #595959;
 }
 
 pre {
-  background: #f5f2f0;
   border-radius: 4px;
   padding: 1em 1.5em;
   display: block;
