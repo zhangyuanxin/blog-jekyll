@@ -1,22 +1,4 @@
 {% if page.comments %}
-<section id="comments" class="comments">
-    <!-- duoshuo start -->
-    <div class="ds-thread" data-thread-key="{{ page.title }}" data-title="{{ page.title }}"
-         data-url="{{ site.url }}{{ page.id }}"></div>
-    <!-- duoshuo end -->
-    <!-- duoshuo js start (once for one page ) -->
-    <script type="text/javascript">
-        var duoshuoQuery = {short_name: "yuanxin"};
-        (function () {
-            var ds = document.createElement('script');
-            ds.type = 'text/javascript';
-            ds.async = true;
-            ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';
-            ds.charset = 'UTF-8';
-            (document.getElementsByTagName('head')[0]
-            || document.getElementsByTagName('body')[0]).appendChild(ds);
-        })();
-    </script>
-    <!-- duoshuo js end -->
-</section>
+<!--{% include comments-duoshuo.html %}-->
+{% include comments-uyan.html %}
 {% endif %}

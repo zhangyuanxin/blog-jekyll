@@ -178,6 +178,7 @@ pre, code, pre tt {
 pre {
   border-radius: 4px;
   display: block;
+  background: honeydew;
   -webkit-overflow-scrolling: touch;
 }
 
