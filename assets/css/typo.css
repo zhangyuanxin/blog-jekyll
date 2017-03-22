@@ -175,11 +175,34 @@ pre, code, pre tt {
   overflow-x: auto;
 }
 
+pre, .hljs {
+  word-wrap: normal;
+  word-break: break-all;
+  white-space: pre;
+  overflow: auto;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  background: #f6f6f6;
+  color: #657b83;
+  -webkit-text-size-adjust: none;
+}
+
 pre {
-  border-radius: 4px;
   display: block;
-  background: honeydew;
-  -webkit-overflow-scrolling: touch;
+  padding: 15px;
+  margin: 0 0 10px;
+  font-size: 13px;
+  line-height: 20px;
+  word-break: break-all;
+  word-wrap: break-word;
+  white-space: pre;
+  white-space: pre-wrap;
+  background-color: #f5f5f5;
+  border: 1px solid #ccc;
+  border: 1px solid rgba(0, 0, 0, 0.15);
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
 }
 
 /* 一致化 horizontal rule */
