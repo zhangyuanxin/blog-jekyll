@@ -37,23 +37,21 @@ public void setEmptyView (View emptyView)
 
 空数据时候的布局文件layout_empty.xml
 
+```xml
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent" >
-
     <LinearLayout 
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_centerVertical="true"
         android:gravity="center_horizontal"
         android:orientation="vertical" >
-
         <ImageView 
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:src="@drawable/ic_none_notice" />
-
         <TextView 
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -61,12 +59,12 @@ public void setEmptyView (View emptyView)
             android:textSize="18sp"
             android:layout_marginTop="8dp"
             android:text="什么都没有哦~" />
-
     </LinearLayout>
 </RelativeLayout>
+```
 
 主程序视图的布局文件activity_main.xml
-
+```xml
 <RelativeLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
@@ -84,9 +82,11 @@ public void setEmptyView (View emptyView)
         android:visibility="gone"
         android:id="@+id/layout_empty" />
 </RelativeLayout>
+```
 
 主程序MainActivity.Java的onCreate函数
 
+```java
 @Override
 protected void onCreate(Bundle savedInstanceState) {
     super.onCreate(savedInstanceState);
@@ -95,30 +95,31 @@ protected void onCreate(Bundle savedInstanceState) {
     ListView listView = (ListView) findViewById(R.id.list);
     listView.setEmptyView(findViewById(R.id.layout_empty));
 }
+```
 
 通常做法2
 
 修改上述的activity_main.xml代码为
 
+```xml
 <RelativeLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent" >
-
     <ListView 
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:id="@+id/list" />
-
 </RelativeLayout>
+```
 
 修改主程序MainActivity.java的onCreate函数为：
 
+```java
 @Override
 protected void onCreate(Bundle savedInstanceState) {
     super.onCreate(savedInstanceState);
     setContentView(R.layout.activity_main);
-
     ListView listView = ((ListView) findViewById(R.id.list));
     /**
      * 下面的一行代码与可如下两行等价
@@ -128,7 +129,7 @@ protected void onCreate(Bundle savedInstanceState) {
     View listEmptyView = View.inflate(this, R.layout.layout_empty, (ViewGroup) listView.getParent());
     listView.setEmptyView(listEmptyView);
 }
-
+```
 运行结果
 
 有数据： 
@@ -142,15 +143,15 @@ protected void onCreate(Bundle savedInstanceState) {
 实际上在对listView设置了listEmptyView之后，整个界面就变成了
 
 当有数据的时候相当于进行了如下操作：
-
+```java
 listView.setVisibility(View.VISIBLE);
 listEmptyView.setVisibility(View.GONE);
-
+```
 当无数据或者Adapter为空的时候进行了如下操作：
-
+```java
 listView.setVisibility(View.GONE);
 listEmptyView.setVisibility(View.VISIBLE);
-
+```
 这样也就能够解释为什么要将listEmptyView添加到listView的同一视图层级上
 
 他们是每次只显示其一的关系，因此当设置的空数据布局之后，listView的header和footer在无数据时候也是不显示的
