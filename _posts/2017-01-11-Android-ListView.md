@@ -17,11 +17,9 @@ image-sm: https://unsplash.it/500/300?image=163
 
 ListView继承了AdapterView公共方法`setEmptyView`：
 
+
 ```java
-/*
-*
-* Sets the view to show if the adapter is empty
-*/
+// Sets the view to show if the adapter is empty
 public void setEmptyView (View emptyView)
 
 ```
@@ -121,8 +119,6 @@ protected void onCreate(Bundle savedInstanceState) {
     listView.setEmptyView(listEmptyView);
 }
 ```
-
-
 
 有数据时相当于如下操作：
 ```java
