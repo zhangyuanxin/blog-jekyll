@@ -379,7 +379,7 @@
     line-height: 1.2;
   }
 
-  p:first-child {
+  p:first-child:not(blockquote p) {
     font-size: 1.25em;
   }
 
