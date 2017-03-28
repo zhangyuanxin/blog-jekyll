@@ -84,6 +84,9 @@
   &__img {
     will-change: opacity;
     animation: fade-in 1s both;
+    border-radius: 50%;
+    height: 90px;
+    width: auto;
   }
 
   &__link {
@@ -427,11 +430,6 @@
 
     background-color: $color-black;
 
-    @media (min-width: $mq-md) {
-      flex-basis: 20%;
-      max-width: 20%;
-    }
-
     &:after {
       @extend %overlay;
     }
@@ -444,11 +442,6 @@
     padding: 1em;
 
     background-color: $color-white;
-
-    @media (min-width: $mq-md) {
-      flex-basis: 80%;
-      max-width: 80%;
-    }
   }
 
   &__social {
