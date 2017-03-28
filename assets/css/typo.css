@@ -61,7 +61,6 @@ fieldset, img {
 /* 块/段落引用 */
 blockquote {
   padding: 20px;
-  margin-bottom: 25px;
   background-color: whitesmoke;
   border-left: 6px solid #b4b4b4;
   word-break: break-all;
@@ -71,8 +70,6 @@ blockquote {
   display: block;
   -webkit-margin-before: 1em;
   -webkit-margin-after: 1em;
-  -webkit-margin-start: 40px;
-  -webkit-margin-end: 40px;
 }
 
 @media only screen and ( max-width: 640px ) {
@@ -268,7 +265,7 @@ strong, b {
 
 /* 保证块/段落之间的空白隔行 */
 .typo p, .typo pre, .typo ul, .typo ol, .typo dl, .typo form, .typo hr, .typo table,
-.typo-p, .typo-pre, .typo-ul, .typo-ol, .typo-dl, .typo-form, .typo-hr, .typo-table, blockquote {
+.typo-p, .typo-pre, .typo-ul, .typo-ol, .typo-dl, .typo-form, .typo-hr, .typo-table {
   margin-bottom: 1.2em
 }
 
