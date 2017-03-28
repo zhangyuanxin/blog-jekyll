@@ -30,7 +30,8 @@ layout: default
 
     <section class="profile">
         <div class="profile__card">
-            <img src="{{ site.profile_img }}" style="height: 90px;width: auto;border-radius: 50%;margin: 10px">
+            <img src="{{ site.profile_img }}" class="avatar">
+
             <div class="profile__container">
                 {{ site.profile }}
                 {% if site.email or site.social %}
