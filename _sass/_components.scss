@@ -258,7 +258,6 @@
   }
 
   &__social {
-    display: flex;
     margin-top: 1em;
 
     @media (min-width: $mq-sm) {
@@ -410,13 +409,6 @@
 
   &__card {
     @include box-shadow(1px);
-
-    display: flex;
-    flex-direction: column;
-
-    @media (min-width: $mq-md) {
-      flex-direction: row;
-    }
   }
 
   &__img {
@@ -428,11 +420,8 @@
   }
 
   &__container {
-    display: flex;
-    flex-direction: column;
     justify-content: space-between;
     padding: 1em;
-
     background-color: $color-white;
   }
 
