@@ -185,11 +185,7 @@
 
   &__img {
     position: relative;
-
-    height: 12em;
-
     background-color: $color-black;
-
     &:after {
       @extend %overlay;
     }
@@ -425,11 +421,7 @@
 
   &__img {
     position: relative;
-
-    min-height: 15em;
-
     background-color: $color-black;
-
     &:after {
       @extend %overlay;
     }
