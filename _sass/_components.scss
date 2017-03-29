@@ -417,10 +417,6 @@
 
     display: flex;
     flex-direction: column;
-
-    @media (min-width: $mq-md) {
-      flex-direction: row;
-    }
   }
 
   &__img {
