@@ -18,7 +18,11 @@ default_img: http://uiplus.org/assets/images/avatar.jpg
 # Profile settings
 name: 張遠馨
 profile_img: http://uiplus.org/assets/images/avatar.jpg
-profile: 張遠馨         生於壹玖玖壹年冬，山東人，肄業于山東中醫藥大學，今居濟南，某不知名软件工程师。爱看電影、聽歌、翻閲科技新聞。微信公众号：靜思詩文的 / 简书：斯是陋室Oo。
+profile: 張遠馨
+籍贯：山東人，生於壹玖玖壹年冬，肄業于山東中醫藥大學。
+职业：某不知名软件工程师。
+兴趣：爱看電影、聽歌、翻閲科技新聞。
+其他：微信公众号：靜思詩文 / 简书：斯是陋室Oo
 social:
   github: http://github.com/zhangyuanxin
 #  codepen: http://codepen.io/zhangyuanxin
